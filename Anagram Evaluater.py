@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Aug  1 22:36:00 2020
+'''
+Created by Vedant Christian
+Created on 18 / 08 / 2020
+'''
 
-@author: 14chr
-"""
 from collections import Counter
 def is_anagram(str1, str2):
     return Counter(str1) == Counter(str2)
